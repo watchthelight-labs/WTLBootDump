@@ -1,4 +1,6 @@
-# bootdump
+# WTLBootDump
+
+Renamed from `bootdump` on 2026-10-31; the command is still `bootdump`. Old links redirect here.
 
 A LaunchDaemon that takes snapshots of the kernel log, the IORegistry and a few other things at fixed times after every boot, so a boot that never reaches a usable desktop (a black screen, a frozen panel, a hang at login) can still be read afterwards from the next boot or another OS.
 
@@ -29,7 +31,7 @@ To read a bad boot, start the next one normally (or from a recovery or older con
 ## Install
 
 ```
-git clone https://github.com/watchthelight-labs/bootdump ~/src/bootdump
+git clone https://github.com/watchthelight-labs/WTLBootDump ~/src/bootdump
 cd ~/src/bootdump
 sudo ./install.sh
 ```
